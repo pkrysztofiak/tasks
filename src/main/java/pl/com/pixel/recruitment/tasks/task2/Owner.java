@@ -8,22 +8,22 @@ public class Owner {
     private final String name;
     private final String surname;
  
-    private List<Dog> pets = new ArrayList<>();
+    private List<Dog> dogs = new ArrayList<>();
     
-    public Owner(String name, String surname, Dog... children) {
+    public Owner(String name, String surname, Dog... dogs) {
         super();
         this.name = name;
         this.surname = surname; 
-        for (Dog child : children) {
-            this.pets.add(child);
+        for (Dog dog : dogs) {
+            this.dogs.add(dog);
         }
     }
 
-    public List<Dog> getChildren() {
-        return pets;
+    public List<Dog> getDogs() {
+        return dogs;
     }
 
-    public void setChildren(List<Dog> childeren) {
-        this.pets = childeren;
+    public void setDogs(List<Dog> dogs) {
+        this.dogs = dogs;
     }
 }

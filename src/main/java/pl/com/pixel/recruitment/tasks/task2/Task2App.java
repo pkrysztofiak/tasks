@@ -14,7 +14,6 @@ public class Task2App {
         dogs.add(new Dog("Marley", 13));
         dogs.add(new Dog("Rex", 7));
         
-        
         //using Collection.stream() method filter dogs above age of 6
         
         List<Owner> owners = new ArrayList<>();
@@ -22,7 +21,7 @@ public class Task2App {
         owners.add(new Owner("Margharet", "Taddley", new Dog("Dakota", 1), new Dog("Lulu", 12)));
         owners.add(new Owner("Henry", "Thoreau", new Dog("Ace", 2), new Dog("Boomer", 2), new Dog("Oreo", 3), new Dog("Ziggy", 1)));
         
-        //using Collection.stream() provide list of dogs above age of 6 using owners list
+        //provide list of dogs above age of 6 using owners list
         
         //group dogs by age, map is expected output
     }
